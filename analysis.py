@@ -4,32 +4,37 @@ from database import get_connection
 
 connection = get_connection()
 
-query = """
-SELECT
-    o.order_id,
-    o.order_date,
-    o.order_status,
-    c.customer_name,
-    c.city,
-    p.product_name,
-    p.category,
-    p.brand,
-    p.price,
-    oi.quantity,
-    (p.price * oi.quantity) AS total_sales
-FROM orders o
-JOIN customers c
-    ON o.customer_id = c.customer_id
-JOIN order_items oi
-    ON o.order_id = oi.order_id
-JOIN products p
-    ON oi.product_id = p.product_id
-"""
-
-sales_df = pd.read_sql(query, connection)
+if connection:
+    query = """
+    SELECT
+        o.order_id,
+        o.order_date,
+        o.order_status,
+        c.customer_name,
+        c.city,
+        p.product_name,
+        p.category,
+        p.brand,
+        p.price,
+        oi.quantity,
+        (p.price * oi.quantity) AS total_sales
+    FROM orders o
+    JOIN customers c
+        ON o.customer_id = c.customer_id
+    JOIN order_items oi
+        ON o.order_id = oi.order_id
+    JOIN products p
+        ON oi.product_id = p.product_id
+    """
+    sales_df = pd.read_sql(query, connection)
+    connection.close()
+else:
+    print("MySQL offline: Loading data from local CSV fallback...")
+    sales_df = pd.read_csv("data/fashion_sales.csv")
 
 print("\n--- COMPLETE SALES DATA ---")
 print(sales_df)
+
 
 
 # PANDAS ANALYSIS
@@ -66,6 +71,3 @@ print("Average Sale:", np.mean(sales_array))
 print("Highest Sale:", np.max(sales_array))
 
 print("Lowest Sale:", np.min(sales_array))
-
-
-connection.close()

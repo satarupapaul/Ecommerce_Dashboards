@@ -2,16 +2,22 @@ import mysql.connector
 
 
 def get_connection():
-    return mysql.connector.connect(
-        host="localhost",
-        user="root",
-        password="1812",
-        database="fashion_ecommerce"
-    )
+    try:
+        return mysql.connector.connect(
+            host="localhost",
+            user="root",
+            password="1812",
+            database="fashion_ecommerce"
+        )
+    except Exception:
+        return None
 
 
 def create_user(full_name, email, password):
     connection = get_connection()
+    if not connection:
+        return False
+
     cursor = connection.cursor()
 
     try:
@@ -24,6 +30,8 @@ def create_user(full_name, email, password):
 
     except mysql.connector.IntegrityError:
         return False
+    except Exception:
+        return False
 
     finally:
         cursor.close()
@@ -32,16 +40,20 @@ def create_user(full_name, email, password):
 
 def login_user(email, password):
     connection = get_connection()
+    if not connection:
+        return None
+
     cursor = connection.cursor()
 
-    cursor.execute(
-        "SELECT * FROM users WHERE email = %s AND password = %s",
-        (email, password)
-    )
-
-    user = cursor.fetchone()
-
-    cursor.close()
-    connection.close()
-
-    return user
+    try:
+        cursor.execute(
+            "SELECT * FROM users WHERE email = %s AND password = %s",
+            (email, password)
+        )
+        user = cursor.fetchone()
+        return user
+    except Exception:
+        return None
+    finally:
+        cursor.close()
+        connection.close()

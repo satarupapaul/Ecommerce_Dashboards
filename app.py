@@ -75,7 +75,7 @@ if not st.session_state.logged_in:
 
     menu = st.selectbox(
         "Select Option",
-        ["Login", "Sign Up"]
+        ["Login", "Sign Up", "Demo Access"]
     )
 
 
@@ -111,7 +111,7 @@ if not st.session_state.logged_in:
 
                 else:
 
-                    st.error("Invalid Email or Password")
+                    st.error("Invalid Email or Password (or Database is Offline - try Demo Access)")
 
             else:
 
@@ -119,12 +119,14 @@ if not st.session_state.logged_in:
                     "Please enter email and password."
                 )
 
+        st.info("💡 Note: If MySQL is not configured on your local machine, select 'Demo Access' to explore the dashboard.")
+
 
     # --------------------------------------------------
     # SIGN UP
     # --------------------------------------------------
 
-    else:
+    elif menu == "Sign Up":
 
         st.subheader("Create New Account")
 
@@ -156,12 +158,32 @@ if not st.session_state.logged_in:
                 else:
 
                     st.error(
-                        "An account with this email already exists."
+                        "Could not create account. Email may exist or Database is offline."
                     )
 
             else:
 
                 st.warning("Please fill all fields.")
+
+
+    # --------------------------------------------------
+    # DEMO ACCESS
+    # --------------------------------------------------
+
+    else:
+
+        st.subheader("🚀 Quick Demo Mode")
+
+        st.write("Explore the dashboard directly without connecting to MySQL.")
+
+        demo_name = st.text_input("Enter Your Name", value="Demo User")
+
+        if st.button("Explore Dashboard"):
+
+            st.session_state.logged_in = True
+            st.session_state.user_name = demo_name if demo_name else "Demo User"
+
+            st.rerun()
 
     st.stop()
 
@@ -206,25 +228,29 @@ if st.sidebar.button("🚪 Logout"):
 
 
 # ==================================================
-# LOAD DATA FROM MYSQL
+# LOAD DATA FROM MYSQL (WITH CSV FALLBACK)
 # ==================================================
 
-connection = get_connection()
+raw_df = None
 
+try:
+    connection = get_connection()
+    if connection:
+        query = "SELECT * FROM fashion_sales_data"
+        raw_df = pd.read_sql(query, connection)
+        connection.close()
+        st.sidebar.success("⚡ Data Source: MySQL Database")
+except Exception:
+    pass
 
-query = """
-SELECT *
-FROM fashion_sales_data
-"""
+if raw_df is None or raw_df.empty:
+    try:
+        raw_df = pd.read_csv("data/fashion_sales.csv")
+        st.sidebar.info("📁 Data Source: CSV File (Offline Mode)")
+    except Exception as e:
+        st.error(f"Error loading dataset: {e}")
+        st.stop()
 
-
-raw_df = pd.read_sql(
-    query,
-    connection
-)
-
-
-connection.close()
 
 
 # ==================================================
