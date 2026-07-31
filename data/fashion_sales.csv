@@ -1,0 +1,501 @@
+order_id,product_name,category,brand,city,quantity,price,order_status,total_sales
+1,Formal Shirt,Shirts,ClassicWear,Bangalore,2,1199,Cancelled,2398
+2,Floral Summer Dress,Dresses,FashionHub,Kolkata,5,1799,Shipped,8995
+3,Bodycon Dress,Dresses,FashionHub,Kolkata,1,1999,Delivered,1999
+4,Palazzo Pants,Pants,EthnicStyle,Bangalore,4,1099,Cancelled,4396
+5,Wide Leg Jeans,Jeans,DenimCo,Delhi,4,1699,Processing,6796
+6,Hoodie,Winter Wear,StreetWear,Mumbai,4,1599,Shipped,6396
+7,Bodycon Dress,Dresses,FashionHub,Bangalore,3,1999,Shipped,5997
+8,Denim Jacket,Jackets,DenimCo,Hyderabad,5,2499,Shipped,12495
+9,Formal Shirt,Shirts,ClassicWear,Hyderabad,2,1199,Delivered,2398
+10,Casual Kurti,Ethnic Wear,EthnicStyle,Mumbai,4,1399,Shipped,5596
+11,Cargo Pants,Pants,StreetWear,Kolkata,3,1299,Delivered,3897
+12,Formal Shirt,Shirts,ClassicWear,Ahmedabad,1,1199,Delivered,1199
+13,Wide Leg Jeans,Jeans,DenimCo,Kolkata,4,1699,Cancelled,6796
+14,Wide Leg Jeans,Jeans,DenimCo,Pune,5,1699,Cancelled,8495
+15,Hoodie,Winter Wear,StreetWear,Ahmedabad,5,1599,Cancelled,7995
+16,Denim Jacket,Jackets,DenimCo,Pune,3,2499,Cancelled,7497
+17,Floral Summer Dress,Dresses,FashionHub,Ahmedabad,4,1799,Delivered,7196
+18,Hoodie,Winter Wear,StreetWear,Kolkata,2,1599,Shipped,3198
+19,Hoodie,Winter Wear,StreetWear,Bangalore,3,1599,Cancelled,4797
+20,Cargo Pants,Pants,StreetWear,Kolkata,3,1299,Shipped,3897
+21,Crop Top,Tops,UrbanStyle,Chennai,2,699,Shipped,1398
+22,Denim Jacket,Jackets,DenimCo,Hyderabad,5,2499,Processing,12495
+23,Slim Fit Jeans,Jeans,DenimCo,Kolkata,1,1499,Delivered,1499
+24,Hoodie,Winter Wear,StreetWear,Mumbai,1,1599,Shipped,1599
+25,Graphic T-Shirt,T-Shirts,UrbanStyle,Pune,1,899,Shipped,899
+26,Bomber Jacket,Jackets,StreetWear,Ahmedabad,1,2799,Delivered,2799
+27,Crop Top,Tops,UrbanStyle,Bangalore,5,699,Cancelled,3495
+28,Slim Fit Jeans,Jeans,DenimCo,Pune,5,1499,Cancelled,7495
+29,Graphic T-Shirt,T-Shirts,UrbanStyle,Hyderabad,5,899,Delivered,4495
+30,Denim Jacket,Jackets,DenimCo,Kolkata,3,2499,Shipped,7497
+31,Oversized T-Shirt,T-Shirts,UrbanStyle,Chennai,3,799,Shipped,2397
+32,Graphic T-Shirt,T-Shirts,UrbanStyle,Chennai,1,899,Shipped,899
+33,Casual Kurti,Ethnic Wear,EthnicStyle,Chennai,4,1399,Processing,5596
+34,Crop Top,Tops,UrbanStyle,Hyderabad,1,699,Shipped,699
+35,Bodycon Dress,Dresses,FashionHub,Chennai,4,1999,Cancelled,7996
+36,Graphic T-Shirt,T-Shirts,UrbanStyle,Mumbai,2,899,Cancelled,1798
+37,Pleated Skirt,Skirts,FashionHub,Pune,5,999,Cancelled,4995
+38,Oversized T-Shirt,T-Shirts,UrbanStyle,Hyderabad,1,799,Shipped,799
+39,Wide Leg Jeans,Jeans,DenimCo,Pune,5,1699,Shipped,8495
+40,Wide Leg Jeans,Jeans,DenimCo,Hyderabad,2,1699,Delivered,3398
+41,Palazzo Pants,Pants,EthnicStyle,Mumbai,4,1099,Cancelled,4396
+42,Casual Kurti,Ethnic Wear,EthnicStyle,Mumbai,2,1399,Processing,2798
+43,Graphic T-Shirt,T-Shirts,UrbanStyle,Ahmedabad,2,899,Delivered,1798
+44,Graphic T-Shirt,T-Shirts,UrbanStyle,Chennai,5,899,Cancelled,4495
+45,Palazzo Pants,Pants,EthnicStyle,Bangalore,2,1099,Cancelled,2198
+46,Bomber Jacket,Jackets,StreetWear,Kolkata,3,2799,Cancelled,8397
+47,Bomber Jacket,Jackets,StreetWear,Mumbai,4,2799,Processing,11196
+48,Palazzo Pants,Pants,EthnicStyle,Bangalore,4,1099,Delivered,4396
+49,Bomber Jacket,Jackets,StreetWear,Delhi,5,2799,Processing,13995
+50,Cargo Pants,Pants,StreetWear,Kolkata,5,1299,Processing,6495
+51,Graphic T-Shirt,T-Shirts,UrbanStyle,Bangalore,1,899,Cancelled,899
+52,Formal Shirt,Shirts,ClassicWear,Delhi,2,1199,Cancelled,2398
+53,Floral Summer Dress,Dresses,FashionHub,Chennai,5,1799,Cancelled,8995
+54,Pleated Skirt,Skirts,FashionHub,Chennai,2,999,Processing,1998
+55,Cargo Pants,Pants,StreetWear,Delhi,2,1299,Processing,2598
+56,Denim Jacket,Jackets,DenimCo,Mumbai,1,2499,Cancelled,2499
+57,Cargo Pants,Pants,StreetWear,Mumbai,5,1299,Shipped,6495
+58,Formal Shirt,Shirts,ClassicWear,Hyderabad,2,1199,Shipped,2398
+59,Denim Jacket,Jackets,DenimCo,Bangalore,3,2499,Processing,7497
+60,Pleated Skirt,Skirts,FashionHub,Mumbai,4,999,Delivered,3996
+61,Formal Shirt,Shirts,ClassicWear,Chennai,2,1199,Processing,2398
+62,Slim Fit Jeans,Jeans,DenimCo,Ahmedabad,5,1499,Cancelled,7495
+63,Floral Summer Dress,Dresses,FashionHub,Chennai,1,1799,Delivered,1799
+64,Pleated Skirt,Skirts,FashionHub,Kolkata,1,999,Shipped,999
+65,Graphic T-Shirt,T-Shirts,UrbanStyle,Bangalore,5,899,Cancelled,4495
+66,Bomber Jacket,Jackets,StreetWear,Bangalore,3,2799,Processing,8397
+67,Slim Fit Jeans,Jeans,DenimCo,Mumbai,4,1499,Delivered,5996
+68,Casual Kurti,Ethnic Wear,EthnicStyle,Kolkata,5,1399,Delivered,6995
+69,Pleated Skirt,Skirts,FashionHub,Pune,5,999,Delivered,4995
+70,Casual Kurti,Ethnic Wear,EthnicStyle,Bangalore,3,1399,Shipped,4197
+71,Denim Jacket,Jackets,DenimCo,Bangalore,1,2499,Shipped,2499
+72,Slim Fit Jeans,Jeans,DenimCo,Ahmedabad,4,1499,Delivered,5996
+73,Floral Summer Dress,Dresses,FashionHub,Delhi,5,1799,Processing,8995
+74,Graphic T-Shirt,T-Shirts,UrbanStyle,Kolkata,1,899,Cancelled,899
+75,Palazzo Pants,Pants,EthnicStyle,Bangalore,5,1099,Processing,5495
+76,Graphic T-Shirt,T-Shirts,UrbanStyle,Bangalore,4,899,Processing,3596
+77,Formal Shirt,Shirts,ClassicWear,Hyderabad,4,1199,Processing,4796
+78,Graphic T-Shirt,T-Shirts,UrbanStyle,Delhi,4,899,Shipped,3596
+79,Bodycon Dress,Dresses,FashionHub,Chennai,5,1999,Processing,9995
+80,Hoodie,Winter Wear,StreetWear,Bangalore,4,1599,Cancelled,6396
+81,Palazzo Pants,Pants,EthnicStyle,Chennai,3,1099,Cancelled,3297
+82,Cargo Pants,Pants,StreetWear,Pune,5,1299,Cancelled,6495
+83,Bomber Jacket,Jackets,StreetWear,Pune,1,2799,Delivered,2799
+84,Oversized T-Shirt,T-Shirts,UrbanStyle,Mumbai,5,799,Shipped,3995
+85,Floral Summer Dress,Dresses,FashionHub,Chennai,2,1799,Processing,3598
+86,Slim Fit Jeans,Jeans,DenimCo,Delhi,5,1499,Processing,7495
+87,Hoodie,Winter Wear,StreetWear,Pune,2,1599,Cancelled,3198
+88,Floral Summer Dress,Dresses,FashionHub,Mumbai,1,1799,Shipped,1799
+89,Slim Fit Jeans,Jeans,DenimCo,Bangalore,4,1499,Delivered,5996
+90,Bomber Jacket,Jackets,StreetWear,Ahmedabad,5,2799,Shipped,13995
+91,Crop Top,Tops,UrbanStyle,Mumbai,1,699,Processing,699
+92,Crop Top,Tops,UrbanStyle,Mumbai,2,699,Delivered,1398
+93,Casual Kurti,Ethnic Wear,EthnicStyle,Chennai,5,1399,Shipped,6995
+94,Floral Summer Dress,Dresses,FashionHub,Ahmedabad,3,1799,Cancelled,5397
+95,Crop Top,Tops,UrbanStyle,Bangalore,5,699,Shipped,3495
+96,Bodycon Dress,Dresses,FashionHub,Bangalore,4,1999,Processing,7996
+97,Palazzo Pants,Pants,EthnicStyle,Chennai,1,1099,Cancelled,1099
+98,Slim Fit Jeans,Jeans,DenimCo,Hyderabad,4,1499,Cancelled,5996
+99,Casual Kurti,Ethnic Wear,EthnicStyle,Chennai,3,1399,Cancelled,4197
+100,Graphic T-Shirt,T-Shirts,UrbanStyle,Mumbai,3,899,Shipped,2697
+101,Slim Fit Jeans,Jeans,DenimCo,Pune,3,1499,Shipped,4497
+102,Casual Kurti,Ethnic Wear,EthnicStyle,Chennai,3,1399,Delivered,4197
+103,Bomber Jacket,Jackets,StreetWear,Kolkata,2,2799,Shipped,5598
+104,Floral Summer Dress,Dresses,FashionHub,Kolkata,2,1799,Cancelled,3598
+105,Bomber Jacket,Jackets,StreetWear,Pune,5,2799,Delivered,13995
+106,Palazzo Pants,Pants,EthnicStyle,Delhi,1,1099,Delivered,1099
+107,Palazzo Pants,Pants,EthnicStyle,Hyderabad,4,1099,Delivered,4396
+108,Hoodie,Winter Wear,StreetWear,Bangalore,4,1599,Delivered,6396
+109,Bomber Jacket,Jackets,StreetWear,Hyderabad,1,2799,Delivered,2799
+110,Formal Shirt,Shirts,ClassicWear,Kolkata,2,1199,Delivered,2398
+111,Graphic T-Shirt,T-Shirts,UrbanStyle,Chennai,5,899,Processing,4495
+112,Pleated Skirt,Skirts,FashionHub,Ahmedabad,5,999,Shipped,4995
+113,Bomber Jacket,Jackets,StreetWear,Delhi,5,2799,Cancelled,13995
+114,Hoodie,Winter Wear,StreetWear,Kolkata,5,1599,Processing,7995
+115,Denim Jacket,Jackets,DenimCo,Kolkata,3,2499,Delivered,7497
+116,Bodycon Dress,Dresses,FashionHub,Pune,2,1999,Delivered,3998
+117,Slim Fit Jeans,Jeans,DenimCo,Hyderabad,1,1499,Processing,1499
+118,Palazzo Pants,Pants,EthnicStyle,Chennai,1,1099,Shipped,1099
+119,Denim Jacket,Jackets,DenimCo,Ahmedabad,3,2499,Processing,7497
+120,Hoodie,Winter Wear,StreetWear,Delhi,1,1599,Cancelled,1599
+121,Casual Kurti,Ethnic Wear,EthnicStyle,Ahmedabad,2,1399,Cancelled,2798
+122,Pleated Skirt,Skirts,FashionHub,Ahmedabad,4,999,Cancelled,3996
+123,Graphic T-Shirt,T-Shirts,UrbanStyle,Ahmedabad,5,899,Shipped,4495
+124,Graphic T-Shirt,T-Shirts,UrbanStyle,Kolkata,4,899,Shipped,3596
+125,Graphic T-Shirt,T-Shirts,UrbanStyle,Kolkata,2,899,Shipped,1798
+126,Bodycon Dress,Dresses,FashionHub,Kolkata,4,1999,Delivered,7996
+127,Pleated Skirt,Skirts,FashionHub,Kolkata,1,999,Cancelled,999
+128,Bodycon Dress,Dresses,FashionHub,Hyderabad,3,1999,Processing,5997
+129,Palazzo Pants,Pants,EthnicStyle,Bangalore,1,1099,Delivered,1099
+130,Bodycon Dress,Dresses,FashionHub,Kolkata,5,1999,Delivered,9995
+131,Oversized T-Shirt,T-Shirts,UrbanStyle,Ahmedabad,4,799,Delivered,3196
+132,Pleated Skirt,Skirts,FashionHub,Hyderabad,5,999,Processing,4995
+133,Formal Shirt,Shirts,ClassicWear,Hyderabad,5,1199,Shipped,5995
+134,Pleated Skirt,Skirts,FashionHub,Ahmedabad,3,999,Delivered,2997
+135,Hoodie,Winter Wear,StreetWear,Mumbai,1,1599,Shipped,1599
+136,Oversized T-Shirt,T-Shirts,UrbanStyle,Delhi,2,799,Delivered,1598
+137,Graphic T-Shirt,T-Shirts,UrbanStyle,Pune,5,899,Cancelled,4495
+138,Hoodie,Winter Wear,StreetWear,Hyderabad,1,1599,Delivered,1599
+139,Hoodie,Winter Wear,StreetWear,Ahmedabad,2,1599,Processing,3198
+140,Palazzo Pants,Pants,EthnicStyle,Delhi,1,1099,Delivered,1099
+141,Wide Leg Jeans,Jeans,DenimCo,Pune,2,1699,Delivered,3398
+142,Cargo Pants,Pants,StreetWear,Delhi,3,1299,Delivered,3897
+143,Oversized T-Shirt,T-Shirts,UrbanStyle,Bangalore,5,799,Shipped,3995
+144,Hoodie,Winter Wear,StreetWear,Delhi,1,1599,Processing,1599
+145,Cargo Pants,Pants,StreetWear,Chennai,1,1299,Cancelled,1299
+146,Cargo Pants,Pants,StreetWear,Bangalore,4,1299,Delivered,5196
+147,Oversized T-Shirt,T-Shirts,UrbanStyle,Hyderabad,5,799,Processing,3995
+148,Wide Leg Jeans,Jeans,DenimCo,Pune,5,1699,Delivered,8495
+149,Denim Jacket,Jackets,DenimCo,Chennai,5,2499,Shipped,12495
+150,Casual Kurti,Ethnic Wear,EthnicStyle,Delhi,2,1399,Delivered,2798
+151,Formal Shirt,Shirts,ClassicWear,Hyderabad,5,1199,Delivered,5995
+152,Casual Kurti,Ethnic Wear,EthnicStyle,Delhi,1,1399,Delivered,1399
+153,Pleated Skirt,Skirts,FashionHub,Kolkata,5,999,Shipped,4995
+154,Graphic T-Shirt,T-Shirts,UrbanStyle,Bangalore,1,899,Cancelled,899
+155,Formal Shirt,Shirts,ClassicWear,Kolkata,2,1199,Processing,2398
+156,Pleated Skirt,Skirts,FashionHub,Mumbai,2,999,Shipped,1998
+157,Hoodie,Winter Wear,StreetWear,Delhi,3,1599,Shipped,4797
+158,Graphic T-Shirt,T-Shirts,UrbanStyle,Bangalore,4,899,Shipped,3596
+159,Slim Fit Jeans,Jeans,DenimCo,Chennai,4,1499,Shipped,5996
+160,Oversized T-Shirt,T-Shirts,UrbanStyle,Bangalore,3,799,Delivered,2397
+161,Formal Shirt,Shirts,ClassicWear,Chennai,5,1199,Shipped,5995
+162,Formal Shirt,Shirts,ClassicWear,Delhi,2,1199,Processing,2398
+163,Bomber Jacket,Jackets,StreetWear,Mumbai,4,2799,Shipped,11196
+164,Hoodie,Winter Wear,StreetWear,Mumbai,2,1599,Shipped,3198
+165,Denim Jacket,Jackets,DenimCo,Delhi,3,2499,Processing,7497
+166,Cargo Pants,Pants,StreetWear,Kolkata,2,1299,Delivered,2598
+167,Graphic T-Shirt,T-Shirts,UrbanStyle,Ahmedabad,1,899,Processing,899
+168,Hoodie,Winter Wear,StreetWear,Hyderabad,4,1599,Processing,6396
+169,Crop Top,Tops,UrbanStyle,Delhi,2,699,Delivered,1398
+170,Wide Leg Jeans,Jeans,DenimCo,Chennai,5,1699,Cancelled,8495
+171,Cargo Pants,Pants,StreetWear,Ahmedabad,2,1299,Delivered,2598
+172,Oversized T-Shirt,T-Shirts,UrbanStyle,Bangalore,2,799,Cancelled,1598
+173,Cargo Pants,Pants,StreetWear,Ahmedabad,4,1299,Delivered,5196
+174,Denim Jacket,Jackets,DenimCo,Hyderabad,2,2499,Delivered,4998
+175,Palazzo Pants,Pants,EthnicStyle,Chennai,2,1099,Shipped,2198
+176,Bomber Jacket,Jackets,StreetWear,Delhi,3,2799,Cancelled,8397
+177,Cargo Pants,Pants,StreetWear,Delhi,3,1299,Processing,3897
+178,Oversized T-Shirt,T-Shirts,UrbanStyle,Pune,1,799,Processing,799
+179,Denim Jacket,Jackets,DenimCo,Hyderabad,3,2499,Cancelled,7497
+180,Casual Kurti,Ethnic Wear,EthnicStyle,Ahmedabad,4,1399,Cancelled,5596
+181,Formal Shirt,Shirts,ClassicWear,Delhi,1,1199,Cancelled,1199
+182,Palazzo Pants,Pants,EthnicStyle,Delhi,3,1099,Delivered,3297
+183,Bomber Jacket,Jackets,StreetWear,Chennai,2,2799,Shipped,5598
+184,Formal Shirt,Shirts,ClassicWear,Delhi,3,1199,Delivered,3597
+185,Wide Leg Jeans,Jeans,DenimCo,Mumbai,5,1699,Cancelled,8495
+186,Pleated Skirt,Skirts,FashionHub,Chennai,2,999,Shipped,1998
+187,Palazzo Pants,Pants,EthnicStyle,Hyderabad,5,1099,Delivered,5495
+188,Palazzo Pants,Pants,EthnicStyle,Bangalore,5,1099,Cancelled,5495
+189,Casual Kurti,Ethnic Wear,EthnicStyle,Hyderabad,2,1399,Shipped,2798
+190,Casual Kurti,Ethnic Wear,EthnicStyle,Hyderabad,1,1399,Shipped,1399
+191,Graphic T-Shirt,T-Shirts,UrbanStyle,Delhi,5,899,Delivered,4495
+192,Bodycon Dress,Dresses,FashionHub,Bangalore,2,1999,Processing,3998
+193,Cargo Pants,Pants,StreetWear,Hyderabad,1,1299,Processing,1299
+194,Palazzo Pants,Pants,EthnicStyle,Pune,3,1099,Cancelled,3297
+195,Formal Shirt,Shirts,ClassicWear,Bangalore,5,1199,Shipped,5995
+196,Oversized T-Shirt,T-Shirts,UrbanStyle,Bangalore,4,799,Cancelled,3196
+197,Floral Summer Dress,Dresses,FashionHub,Delhi,1,1799,Delivered,1799
+198,Bodycon Dress,Dresses,FashionHub,Pune,4,1999,Processing,7996
+199,Floral Summer Dress,Dresses,FashionHub,Kolkata,2,1799,Processing,3598
+200,Bomber Jacket,Jackets,StreetWear,Chennai,2,2799,Shipped,5598
+201,Denim Jacket,Jackets,DenimCo,Ahmedabad,3,2499,Processing,7497
+202,Formal Shirt,Shirts,ClassicWear,Pune,3,1199,Processing,3597
+203,Formal Shirt,Shirts,ClassicWear,Pune,3,1199,Cancelled,3597
+204,Bodycon Dress,Dresses,FashionHub,Mumbai,5,1999,Shipped,9995
+205,Palazzo Pants,Pants,EthnicStyle,Delhi,3,1099,Processing,3297
+206,Wide Leg Jeans,Jeans,DenimCo,Pune,1,1699,Delivered,1699
+207,Bodycon Dress,Dresses,FashionHub,Mumbai,4,1999,Processing,7996
+208,Floral Summer Dress,Dresses,FashionHub,Bangalore,1,1799,Processing,1799
+209,Bodycon Dress,Dresses,FashionHub,Hyderabad,2,1999,Cancelled,3998
+210,Formal Shirt,Shirts,ClassicWear,Bangalore,1,1199,Delivered,1199
+211,Wide Leg Jeans,Jeans,DenimCo,Bangalore,4,1699,Cancelled,6796
+212,Cargo Pants,Pants,StreetWear,Delhi,2,1299,Delivered,2598
+213,Crop Top,Tops,UrbanStyle,Mumbai,5,699,Processing,3495
+214,Graphic T-Shirt,T-Shirts,UrbanStyle,Pune,4,899,Shipped,3596
+215,Slim Fit Jeans,Jeans,DenimCo,Pune,2,1499,Cancelled,2998
+216,Casual Kurti,Ethnic Wear,EthnicStyle,Kolkata,1,1399,Processing,1399
+217,Bodycon Dress,Dresses,FashionHub,Bangalore,2,1999,Delivered,3998
+218,Bomber Jacket,Jackets,StreetWear,Mumbai,4,2799,Cancelled,11196
+219,Pleated Skirt,Skirts,FashionHub,Delhi,2,999,Cancelled,1998
+220,Denim Jacket,Jackets,DenimCo,Chennai,3,2499,Shipped,7497
+221,Crop Top,Tops,UrbanStyle,Bangalore,5,699,Delivered,3495
+222,Graphic T-Shirt,T-Shirts,UrbanStyle,Hyderabad,5,899,Delivered,4495
+223,Graphic T-Shirt,T-Shirts,UrbanStyle,Hyderabad,4,899,Processing,3596
+224,Graphic T-Shirt,T-Shirts,UrbanStyle,Pune,1,899,Processing,899
+225,Graphic T-Shirt,T-Shirts,UrbanStyle,Pune,3,899,Cancelled,2697
+226,Floral Summer Dress,Dresses,FashionHub,Kolkata,5,1799,Cancelled,8995
+227,Bomber Jacket,Jackets,StreetWear,Kolkata,2,2799,Cancelled,5598
+228,Bomber Jacket,Jackets,StreetWear,Kolkata,3,2799,Processing,8397
+229,Wide Leg Jeans,Jeans,DenimCo,Hyderabad,1,1699,Cancelled,1699
+230,Casual Kurti,Ethnic Wear,EthnicStyle,Hyderabad,3,1399,Delivered,4197
+231,Formal Shirt,Shirts,ClassicWear,Pune,2,1199,Processing,2398
+232,Graphic T-Shirt,T-Shirts,UrbanStyle,Delhi,2,899,Delivered,1798
+233,Pleated Skirt,Skirts,FashionHub,Chennai,4,999,Shipped,3996
+234,Formal Shirt,Shirts,ClassicWear,Hyderabad,2,1199,Cancelled,2398
+235,Bomber Jacket,Jackets,StreetWear,Kolkata,3,2799,Delivered,8397
+236,Oversized T-Shirt,T-Shirts,UrbanStyle,Bangalore,4,799,Cancelled,3196
+237,Oversized T-Shirt,T-Shirts,UrbanStyle,Mumbai,1,799,Shipped,799
+238,Pleated Skirt,Skirts,FashionHub,Hyderabad,5,999,Processing,4995
+239,Wide Leg Jeans,Jeans,DenimCo,Chennai,4,1699,Processing,6796
+240,Bomber Jacket,Jackets,StreetWear,Bangalore,3,2799,Shipped,8397
+241,Pleated Skirt,Skirts,FashionHub,Ahmedabad,2,999,Shipped,1998
+242,Floral Summer Dress,Dresses,FashionHub,Pune,5,1799,Shipped,8995
+243,Bodycon Dress,Dresses,FashionHub,Mumbai,4,1999,Delivered,7996
+244,Pleated Skirt,Skirts,FashionHub,Kolkata,2,999,Delivered,1998
+245,Cargo Pants,Pants,StreetWear,Bangalore,5,1299,Delivered,6495
+246,Formal Shirt,Shirts,ClassicWear,Delhi,1,1199,Processing,1199
+247,Crop Top,Tops,UrbanStyle,Hyderabad,3,699,Processing,2097
+248,Hoodie,Winter Wear,StreetWear,Chennai,1,1599,Shipped,1599
+249,Wide Leg Jeans,Jeans,DenimCo,Kolkata,4,1699,Shipped,6796
+250,Pleated Skirt,Skirts,FashionHub,Ahmedabad,5,999,Processing,4995
+251,Bomber Jacket,Jackets,StreetWear,Mumbai,1,2799,Cancelled,2799
+252,Denim Jacket,Jackets,DenimCo,Delhi,3,2499,Delivered,7497
+253,Oversized T-Shirt,T-Shirts,UrbanStyle,Ahmedabad,4,799,Delivered,3196
+254,Cargo Pants,Pants,StreetWear,Bangalore,3,1299,Delivered,3897
+255,Casual Kurti,Ethnic Wear,EthnicStyle,Hyderabad,4,1399,Processing,5596
+256,Graphic T-Shirt,T-Shirts,UrbanStyle,Chennai,5,899,Delivered,4495
+257,Hoodie,Winter Wear,StreetWear,Delhi,3,1599,Shipped,4797
+258,Palazzo Pants,Pants,EthnicStyle,Hyderabad,2,1099,Cancelled,2198
+259,Wide Leg Jeans,Jeans,DenimCo,Chennai,1,1699,Shipped,1699
+260,Crop Top,Tops,UrbanStyle,Mumbai,1,699,Cancelled,699
+261,Hoodie,Winter Wear,StreetWear,Chennai,3,1599,Shipped,4797
+262,Pleated Skirt,Skirts,FashionHub,Pune,1,999,Processing,999
+263,Floral Summer Dress,Dresses,FashionHub,Bangalore,1,1799,Delivered,1799
+264,Oversized T-Shirt,T-Shirts,UrbanStyle,Pune,1,799,Processing,799
+265,Bomber Jacket,Jackets,StreetWear,Hyderabad,2,2799,Delivered,5598
+266,Oversized T-Shirt,T-Shirts,UrbanStyle,Pune,3,799,Processing,2397
+267,Casual Kurti,Ethnic Wear,EthnicStyle,Pune,3,1399,Processing,4197
+268,Floral Summer Dress,Dresses,FashionHub,Ahmedabad,2,1799,Cancelled,3598
+269,Graphic T-Shirt,T-Shirts,UrbanStyle,Bangalore,5,899,Cancelled,4495
+270,Bomber Jacket,Jackets,StreetWear,Kolkata,3,2799,Delivered,8397
+271,Formal Shirt,Shirts,ClassicWear,Bangalore,1,1199,Delivered,1199
+272,Slim Fit Jeans,Jeans,DenimCo,Delhi,5,1499,Processing,7495
+273,Cargo Pants,Pants,StreetWear,Hyderabad,1,1299,Cancelled,1299
+274,Oversized T-Shirt,T-Shirts,UrbanStyle,Mumbai,2,799,Delivered,1598
+275,Denim Jacket,Jackets,DenimCo,Mumbai,3,2499,Delivered,7497
+276,Oversized T-Shirt,T-Shirts,UrbanStyle,Pune,5,799,Processing,3995
+277,Hoodie,Winter Wear,StreetWear,Chennai,4,1599,Cancelled,6396
+278,Oversized T-Shirt,T-Shirts,UrbanStyle,Ahmedabad,4,799,Processing,3196
+279,Wide Leg Jeans,Jeans,DenimCo,Ahmedabad,5,1699,Delivered,8495
+280,Oversized T-Shirt,T-Shirts,UrbanStyle,Pune,5,799,Cancelled,3995
+281,Slim Fit Jeans,Jeans,DenimCo,Chennai,4,1499,Shipped,5996
+282,Slim Fit Jeans,Jeans,DenimCo,Pune,3,1499,Processing,4497
+283,Graphic T-Shirt,T-Shirts,UrbanStyle,Kolkata,3,899,Cancelled,2697
+284,Crop Top,Tops,UrbanStyle,Delhi,2,699,Processing,1398
+285,Formal Shirt,Shirts,ClassicWear,Kolkata,5,1199,Processing,5995
+286,Denim Jacket,Jackets,DenimCo,Ahmedabad,2,2499,Shipped,4998
+287,Oversized T-Shirt,T-Shirts,UrbanStyle,Hyderabad,2,799,Processing,1598
+288,Oversized T-Shirt,T-Shirts,UrbanStyle,Mumbai,4,799,Delivered,3196
+289,Cargo Pants,Pants,StreetWear,Bangalore,2,1299,Delivered,2598
+290,Bomber Jacket,Jackets,StreetWear,Delhi,4,2799,Cancelled,11196
+291,Slim Fit Jeans,Jeans,DenimCo,Kolkata,4,1499,Cancelled,5996
+292,Denim Jacket,Jackets,DenimCo,Chennai,4,2499,Cancelled,9996
+293,Graphic T-Shirt,T-Shirts,UrbanStyle,Ahmedabad,5,899,Processing,4495
+294,Casual Kurti,Ethnic Wear,EthnicStyle,Bangalore,2,1399,Cancelled,2798
+295,Crop Top,Tops,UrbanStyle,Bangalore,2,699,Shipped,1398
+296,Formal Shirt,Shirts,ClassicWear,Chennai,3,1199,Shipped,3597
+297,Floral Summer Dress,Dresses,FashionHub,Hyderabad,1,1799,Processing,1799
+298,Formal Shirt,Shirts,ClassicWear,Hyderabad,1,1199,Delivered,1199
+299,Wide Leg Jeans,Jeans,DenimCo,Mumbai,5,1699,Shipped,8495
+300,Hoodie,Winter Wear,StreetWear,Hyderabad,4,1599,Processing,6396
+301,Wide Leg Jeans,Jeans,DenimCo,Bangalore,1,1699,Processing,1699
+302,Oversized T-Shirt,T-Shirts,UrbanStyle,Ahmedabad,3,799,Processing,2397
+303,Palazzo Pants,Pants,EthnicStyle,Pune,5,1099,Delivered,5495
+304,Crop Top,Tops,UrbanStyle,Bangalore,5,699,Shipped,3495
+305,Hoodie,Winter Wear,StreetWear,Bangalore,4,1599,Delivered,6396
+306,Denim Jacket,Jackets,DenimCo,Bangalore,2,2499,Processing,4998
+307,Floral Summer Dress,Dresses,FashionHub,Bangalore,4,1799,Shipped,7196
+308,Slim Fit Jeans,Jeans,DenimCo,Hyderabad,3,1499,Shipped,4497
+309,Crop Top,Tops,UrbanStyle,Delhi,2,699,Shipped,1398
+310,Crop Top,Tops,UrbanStyle,Bangalore,3,699,Cancelled,2097
+311,Wide Leg Jeans,Jeans,DenimCo,Delhi,3,1699,Cancelled,5097
+312,Palazzo Pants,Pants,EthnicStyle,Delhi,3,1099,Shipped,3297
+313,Oversized T-Shirt,T-Shirts,UrbanStyle,Pune,1,799,Cancelled,799
+314,Pleated Skirt,Skirts,FashionHub,Ahmedabad,5,999,Delivered,4995
+315,Graphic T-Shirt,T-Shirts,UrbanStyle,Chennai,1,899,Processing,899
+316,Wide Leg Jeans,Jeans,DenimCo,Hyderabad,3,1699,Shipped,5097
+317,Crop Top,Tops,UrbanStyle,Mumbai,4,699,Delivered,2796
+318,Bodycon Dress,Dresses,FashionHub,Pune,1,1999,Delivered,1999
+319,Cargo Pants,Pants,StreetWear,Bangalore,4,1299,Delivered,5196
+320,Floral Summer Dress,Dresses,FashionHub,Hyderabad,4,1799,Shipped,7196
+321,Graphic T-Shirt,T-Shirts,UrbanStyle,Pune,4,899,Delivered,3596
+322,Wide Leg Jeans,Jeans,DenimCo,Pune,1,1699,Delivered,1699
+323,Floral Summer Dress,Dresses,FashionHub,Hyderabad,5,1799,Processing,8995
+324,Cargo Pants,Pants,StreetWear,Delhi,3,1299,Cancelled,3897
+325,Casual Kurti,Ethnic Wear,EthnicStyle,Hyderabad,3,1399,Cancelled,4197
+326,Cargo Pants,Pants,StreetWear,Bangalore,5,1299,Delivered,6495
+327,Palazzo Pants,Pants,EthnicStyle,Hyderabad,5,1099,Cancelled,5495
+328,Cargo Pants,Pants,StreetWear,Mumbai,3,1299,Delivered,3897
+329,Floral Summer Dress,Dresses,FashionHub,Pune,3,1799,Shipped,5397
+330,Formal Shirt,Shirts,ClassicWear,Hyderabad,2,1199,Cancelled,2398
+331,Floral Summer Dress,Dresses,FashionHub,Mumbai,1,1799,Shipped,1799
+332,Pleated Skirt,Skirts,FashionHub,Pune,3,999,Cancelled,2997
+333,Oversized T-Shirt,T-Shirts,UrbanStyle,Ahmedabad,1,799,Delivered,799
+334,Hoodie,Winter Wear,StreetWear,Ahmedabad,3,1599,Shipped,4797
+335,Formal Shirt,Shirts,ClassicWear,Delhi,2,1199,Shipped,2398
+336,Slim Fit Jeans,Jeans,DenimCo,Kolkata,2,1499,Delivered,2998
+337,Hoodie,Winter Wear,StreetWear,Ahmedabad,4,1599,Shipped,6396
+338,Oversized T-Shirt,T-Shirts,UrbanStyle,Ahmedabad,5,799,Delivered,3995
+339,Wide Leg Jeans,Jeans,DenimCo,Pune,1,1699,Processing,1699
+340,Graphic T-Shirt,T-Shirts,UrbanStyle,Pune,3,899,Delivered,2697
+341,Pleated Skirt,Skirts,FashionHub,Pune,1,999,Delivered,999
+342,Pleated Skirt,Skirts,FashionHub,Delhi,3,999,Delivered,2997
+343,Slim Fit Jeans,Jeans,DenimCo,Pune,4,1499,Cancelled,5996
+344,Formal Shirt,Shirts,ClassicWear,Delhi,2,1199,Cancelled,2398
+345,Palazzo Pants,Pants,EthnicStyle,Ahmedabad,3,1099,Cancelled,3297
+346,Bomber Jacket,Jackets,StreetWear,Chennai,4,2799,Shipped,11196
+347,Casual Kurti,Ethnic Wear,EthnicStyle,Hyderabad,5,1399,Processing,6995
+348,Cargo Pants,Pants,StreetWear,Pune,2,1299,Shipped,2598
+349,Formal Shirt,Shirts,ClassicWear,Pune,1,1199,Delivered,1199
+350,Graphic T-Shirt,T-Shirts,UrbanStyle,Ahmedabad,3,899,Delivered,2697
+351,Casual Kurti,Ethnic Wear,EthnicStyle,Kolkata,3,1399,Delivered,4197
+352,Pleated Skirt,Skirts,FashionHub,Mumbai,4,999,Shipped,3996
+353,Floral Summer Dress,Dresses,FashionHub,Pune,1,1799,Delivered,1799
+354,Graphic T-Shirt,T-Shirts,UrbanStyle,Delhi,4,899,Shipped,3596
+355,Oversized T-Shirt,T-Shirts,UrbanStyle,Delhi,2,799,Processing,1598
+356,Slim Fit Jeans,Jeans,DenimCo,Kolkata,4,1499,Delivered,5996
+357,Oversized T-Shirt,T-Shirts,UrbanStyle,Hyderabad,5,799,Cancelled,3995
+358,Bomber Jacket,Jackets,StreetWear,Mumbai,1,2799,Delivered,2799
+359,Graphic T-Shirt,T-Shirts,UrbanStyle,Delhi,4,899,Cancelled,3596
+360,Denim Jacket,Jackets,DenimCo,Hyderabad,2,2499,Cancelled,4998
+361,Denim Jacket,Jackets,DenimCo,Mumbai,1,2499,Shipped,2499
+362,Wide Leg Jeans,Jeans,DenimCo,Hyderabad,3,1699,Processing,5097
+363,Formal Shirt,Shirts,ClassicWear,Mumbai,1,1199,Processing,1199
+364,Pleated Skirt,Skirts,FashionHub,Hyderabad,1,999,Delivered,999
+365,Pleated Skirt,Skirts,FashionHub,Chennai,2,999,Delivered,1998
+366,Cargo Pants,Pants,StreetWear,Hyderabad,1,1299,Shipped,1299
+367,Cargo Pants,Pants,StreetWear,Hyderabad,3,1299,Cancelled,3897
+368,Cargo Pants,Pants,StreetWear,Mumbai,2,1299,Delivered,2598
+369,Floral Summer Dress,Dresses,FashionHub,Mumbai,5,1799,Processing,8995
+370,Hoodie,Winter Wear,StreetWear,Delhi,5,1599,Shipped,7995
+371,Crop Top,Tops,UrbanStyle,Ahmedabad,2,699,Delivered,1398
+372,Hoodie,Winter Wear,StreetWear,Kolkata,2,1599,Delivered,3198
+373,Oversized T-Shirt,T-Shirts,UrbanStyle,Bangalore,2,799,Delivered,1598
+374,Hoodie,Winter Wear,StreetWear,Hyderabad,1,1599,Shipped,1599
+375,Floral Summer Dress,Dresses,FashionHub,Pune,4,1799,Delivered,7196
+376,Wide Leg Jeans,Jeans,DenimCo,Hyderabad,2,1699,Delivered,3398
+377,Oversized T-Shirt,T-Shirts,UrbanStyle,Bangalore,3,799,Processing,2397
+378,Hoodie,Winter Wear,StreetWear,Ahmedabad,3,1599,Shipped,4797
+379,Floral Summer Dress,Dresses,FashionHub,Chennai,4,1799,Delivered,7196
+380,Crop Top,Tops,UrbanStyle,Pune,5,699,Shipped,3495
+381,Hoodie,Winter Wear,StreetWear,Bangalore,5,1599,Shipped,7995
+382,Floral Summer Dress,Dresses,FashionHub,Kolkata,5,1799,Shipped,8995
+383,Bomber Jacket,Jackets,StreetWear,Hyderabad,2,2799,Cancelled,5598
+384,Cargo Pants,Pants,StreetWear,Kolkata,2,1299,Shipped,2598
+385,Bomber Jacket,Jackets,StreetWear,Bangalore,3,2799,Processing,8397
+386,Pleated Skirt,Skirts,FashionHub,Kolkata,5,999,Processing,4995
+387,Cargo Pants,Pants,StreetWear,Chennai,2,1299,Delivered,2598
+388,Pleated Skirt,Skirts,FashionHub,Ahmedabad,3,999,Processing,2997
+389,Bodycon Dress,Dresses,FashionHub,Bangalore,4,1999,Processing,7996
+390,Slim Fit Jeans,Jeans,DenimCo,Hyderabad,3,1499,Shipped,4497
+391,Bomber Jacket,Jackets,StreetWear,Ahmedabad,5,2799,Delivered,13995
+392,Slim Fit Jeans,Jeans,DenimCo,Kolkata,2,1499,Processing,2998
+393,Slim Fit Jeans,Jeans,DenimCo,Delhi,4,1499,Processing,5996
+394,Crop Top,Tops,UrbanStyle,Delhi,4,699,Delivered,2796
+395,Cargo Pants,Pants,StreetWear,Chennai,3,1299,Processing,3897
+396,Bodycon Dress,Dresses,FashionHub,Bangalore,2,1999,Shipped,3998
+397,Pleated Skirt,Skirts,FashionHub,Chennai,2,999,Delivered,1998
+398,Floral Summer Dress,Dresses,FashionHub,Ahmedabad,1,1799,Delivered,1799
+399,Oversized T-Shirt,T-Shirts,UrbanStyle,Bangalore,1,799,Delivered,799
+400,Floral Summer Dress,Dresses,FashionHub,Ahmedabad,3,1799,Shipped,5397
+401,Oversized T-Shirt,T-Shirts,UrbanStyle,Pune,1,799,Processing,799
+402,Bomber Jacket,Jackets,StreetWear,Mumbai,3,2799,Delivered,8397
+403,Denim Jacket,Jackets,DenimCo,Kolkata,4,2499,Processing,9996
+404,Floral Summer Dress,Dresses,FashionHub,Kolkata,2,1799,Processing,3598
+405,Hoodie,Winter Wear,StreetWear,Kolkata,5,1599,Processing,7995
+406,Hoodie,Winter Wear,StreetWear,Bangalore,3,1599,Delivered,4797
+407,Formal Shirt,Shirts,ClassicWear,Mumbai,1,1199,Delivered,1199
+408,Cargo Pants,Pants,StreetWear,Pune,1,1299,Cancelled,1299
+409,Oversized T-Shirt,T-Shirts,UrbanStyle,Ahmedabad,3,799,Processing,2397
+410,Oversized T-Shirt,T-Shirts,UrbanStyle,Bangalore,5,799,Processing,3995
+411,Graphic T-Shirt,T-Shirts,UrbanStyle,Hyderabad,5,899,Cancelled,4495
+412,Wide Leg Jeans,Jeans,DenimCo,Mumbai,1,1699,Delivered,1699
+413,Cargo Pants,Pants,StreetWear,Pune,4,1299,Processing,5196
+414,Crop Top,Tops,UrbanStyle,Bangalore,2,699,Delivered,1398
+415,Formal Shirt,Shirts,ClassicWear,Pune,2,1199,Cancelled,2398
+416,Crop Top,Tops,UrbanStyle,Ahmedabad,2,699,Processing,1398
+417,Bomber Jacket,Jackets,StreetWear,Pune,1,2799,Shipped,2799
+418,Bomber Jacket,Jackets,StreetWear,Hyderabad,5,2799,Shipped,13995
+419,Crop Top,Tops,UrbanStyle,Pune,5,699,Delivered,3495
+420,Crop Top,Tops,UrbanStyle,Ahmedabad,3,699,Cancelled,2097
+421,Bodycon Dress,Dresses,FashionHub,Delhi,2,1999,Processing,3998
+422,Cargo Pants,Pants,StreetWear,Mumbai,5,1299,Processing,6495
+423,Crop Top,Tops,UrbanStyle,Pune,4,699,Processing,2796
+424,Hoodie,Winter Wear,StreetWear,Delhi,2,1599,Shipped,3198
+425,Wide Leg Jeans,Jeans,DenimCo,Hyderabad,1,1699,Processing,1699
+426,Wide Leg Jeans,Jeans,DenimCo,Kolkata,3,1699,Cancelled,5097
+427,Slim Fit Jeans,Jeans,DenimCo,Mumbai,5,1499,Processing,7495
+428,Denim Jacket,Jackets,DenimCo,Delhi,5,2499,Cancelled,12495
+429,Bomber Jacket,Jackets,StreetWear,Pune,2,2799,Processing,5598
+430,Oversized T-Shirt,T-Shirts,UrbanStyle,Pune,4,799,Processing,3196
+431,Graphic T-Shirt,T-Shirts,UrbanStyle,Kolkata,1,899,Delivered,899
+432,Palazzo Pants,Pants,EthnicStyle,Chennai,1,1099,Shipped,1099
+433,Oversized T-Shirt,T-Shirts,UrbanStyle,Ahmedabad,1,799,Delivered,799
+434,Denim Jacket,Jackets,DenimCo,Kolkata,2,2499,Shipped,4998
+435,Graphic T-Shirt,T-Shirts,UrbanStyle,Pune,2,899,Processing,1798
+436,Bodycon Dress,Dresses,FashionHub,Mumbai,2,1999,Shipped,3998
+437,Cargo Pants,Pants,StreetWear,Pune,3,1299,Delivered,3897
+438,Floral Summer Dress,Dresses,FashionHub,Mumbai,5,1799,Cancelled,8995
+439,Cargo Pants,Pants,StreetWear,Delhi,3,1299,Processing,3897
+440,Oversized T-Shirt,T-Shirts,UrbanStyle,Chennai,4,799,Shipped,3196
+441,Oversized T-Shirt,T-Shirts,UrbanStyle,Chennai,1,799,Shipped,799
+442,Graphic T-Shirt,T-Shirts,UrbanStyle,Kolkata,5,899,Delivered,4495
+443,Graphic T-Shirt,T-Shirts,UrbanStyle,Pune,4,899,Delivered,3596
+444,Bomber Jacket,Jackets,StreetWear,Hyderabad,2,2799,Delivered,5598
+445,Bodycon Dress,Dresses,FashionHub,Chennai,4,1999,Delivered,7996
+446,Bomber Jacket,Jackets,StreetWear,Delhi,1,2799,Delivered,2799
+447,Denim Jacket,Jackets,DenimCo,Kolkata,2,2499,Shipped,4998
+448,Crop Top,Tops,UrbanStyle,Bangalore,5,699,Cancelled,3495
+449,Cargo Pants,Pants,StreetWear,Chennai,1,1299,Shipped,1299
+450,Graphic T-Shirt,T-Shirts,UrbanStyle,Pune,1,899,Delivered,899
+451,Pleated Skirt,Skirts,FashionHub,Ahmedabad,1,999,Cancelled,999
+452,Denim Jacket,Jackets,DenimCo,Delhi,4,2499,Shipped,9996
+453,Hoodie,Winter Wear,StreetWear,Chennai,5,1599,Delivered,7995
+454,Bodycon Dress,Dresses,FashionHub,Kolkata,3,1999,Shipped,5997
+455,Oversized T-Shirt,T-Shirts,UrbanStyle,Hyderabad,3,799,Delivered,2397
+456,Bomber Jacket,Jackets,StreetWear,Bangalore,2,2799,Processing,5598
+457,Denim Jacket,Jackets,DenimCo,Kolkata,4,2499,Processing,9996
+458,Palazzo Pants,Pants,EthnicStyle,Chennai,4,1099,Processing,4396
+459,Cargo Pants,Pants,StreetWear,Delhi,5,1299,Delivered,6495
+460,Graphic T-Shirt,T-Shirts,UrbanStyle,Delhi,2,899,Shipped,1798
+461,Oversized T-Shirt,T-Shirts,UrbanStyle,Mumbai,1,799,Delivered,799
+462,Floral Summer Dress,Dresses,FashionHub,Mumbai,1,1799,Processing,1799
+463,Palazzo Pants,Pants,EthnicStyle,Chennai,5,1099,Shipped,5495
+464,Bodycon Dress,Dresses,FashionHub,Bangalore,1,1999,Processing,1999
+465,Denim Jacket,Jackets,DenimCo,Mumbai,4,2499,Delivered,9996
+466,Formal Shirt,Shirts,ClassicWear,Delhi,5,1199,Shipped,5995
+467,Oversized T-Shirt,T-Shirts,UrbanStyle,Mumbai,3,799,Shipped,2397
+468,Cargo Pants,Pants,StreetWear,Ahmedabad,1,1299,Processing,1299
+469,Slim Fit Jeans,Jeans,DenimCo,Hyderabad,3,1499,Delivered,4497
+470,Pleated Skirt,Skirts,FashionHub,Pune,5,999,Delivered,4995
+471,Casual Kurti,Ethnic Wear,EthnicStyle,Kolkata,1,1399,Shipped,1399
+472,Palazzo Pants,Pants,EthnicStyle,Mumbai,5,1099,Processing,5495
+473,Crop Top,Tops,UrbanStyle,Ahmedabad,1,699,Processing,699
+474,Casual Kurti,Ethnic Wear,EthnicStyle,Kolkata,3,1399,Delivered,4197
+475,Cargo Pants,Pants,StreetWear,Delhi,1,1299,Delivered,1299
+476,Hoodie,Winter Wear,StreetWear,Kolkata,2,1599,Shipped,3198
+477,Bomber Jacket,Jackets,StreetWear,Pune,1,2799,Cancelled,2799
+478,Hoodie,Winter Wear,StreetWear,Chennai,1,1599,Processing,1599
+479,Slim Fit Jeans,Jeans,DenimCo,Mumbai,3,1499,Cancelled,4497
+480,Palazzo Pants,Pants,EthnicStyle,Pune,4,1099,Shipped,4396
+481,Crop Top,Tops,UrbanStyle,Chennai,3,699,Cancelled,2097
+482,Formal Shirt,Shirts,ClassicWear,Mumbai,2,1199,Shipped,2398
+483,Slim Fit Jeans,Jeans,DenimCo,Kolkata,5,1499,Cancelled,7495
+484,Palazzo Pants,Pants,EthnicStyle,Kolkata,5,1099,Delivered,5495
+485,Wide Leg Jeans,Jeans,DenimCo,Bangalore,5,1699,Shipped,8495
+486,Casual Kurti,Ethnic Wear,EthnicStyle,Ahmedabad,5,1399,Shipped,6995
+487,Slim Fit Jeans,Jeans,DenimCo,Delhi,5,1499,Shipped,7495
+488,Casual Kurti,Ethnic Wear,EthnicStyle,Ahmedabad,3,1399,Cancelled,4197
+489,Oversized T-Shirt,T-Shirts,UrbanStyle,Ahmedabad,2,799,Processing,1598
+490,Hoodie,Winter Wear,StreetWear,Chennai,5,1599,Delivered,7995
+491,Oversized T-Shirt,T-Shirts,UrbanStyle,Ahmedabad,3,799,Cancelled,2397
+492,Pleated Skirt,Skirts,FashionHub,Bangalore,4,999,Processing,3996
+493,Wide Leg Jeans,Jeans,DenimCo,Ahmedabad,3,1699,Delivered,5097
+494,Crop Top,Tops,UrbanStyle,Delhi,5,699,Delivered,3495
+495,Formal Shirt,Shirts,ClassicWear,Chennai,1,1199,Shipped,1199
+496,Bodycon Dress,Dresses,FashionHub,Pune,4,1999,Processing,7996
+497,Casual Kurti,Ethnic Wear,EthnicStyle,Pune,4,1399,Delivered,5596
+498,Formal Shirt,Shirts,ClassicWear,Chennai,3,1199,Shipped,3597
+499,Casual Kurti,Ethnic Wear,EthnicStyle,Delhi,1,1399,Processing,1399
+500,Cargo Pants,Pants,StreetWear,Mumbai,2,1299,Cancelled,2598
